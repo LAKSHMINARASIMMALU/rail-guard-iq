@@ -57,6 +57,38 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        railway: {
+          blue: "hsl(var(--railway-blue))",
+          "blue-light": "hsl(var(--railway-blue-light))",
+          "blue-dark": "hsl(var(--railway-blue-dark))",
+        },
+        vendor: {
+          orange: "hsl(var(--vendor-orange))",
+          "orange-light": "hsl(var(--vendor-orange-light))",
+        },
+        inspector: {
+          green: "hsl(var(--inspector-green))",
+          "green-light": "hsl(var(--inspector-green-light))",
+        },
+        admin: {
+          blue: "hsl(var(--admin-blue))",
+          "blue-light": "hsl(var(--admin-blue-light))",
+        },
+        status: {
+          pass: "hsl(var(--status-pass))",
+          fail: "hsl(var(--status-fail))",
+          pending: "hsl(var(--status-pending))",
+        },
+      },
+      backgroundImage: {
+        "gradient-railway": "var(--gradient-railway)",
+        "gradient-vendor": "var(--gradient-vendor)",
+        "gradient-inspector": "var(--gradient-inspector)",
+        "gradient-admin": "var(--gradient-admin)",
+      },
+      boxShadow: {
+        card: "var(--shadow-card)",
+        elevated: "var(--shadow-elevated)",
       },
       borderRadius: {
         lg: "var(--radius)",
